@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>
+            <%=title%>
+        
+        </title>
+        <link rel="stylesheet" href="/css/home.css">
+    </head>
+    <body>
+        <div id="body-div">
+
+      
+        <h1 id="todoapp"> TODO APP</h1>
+        <form action="/create" method="POST">
+            <div id="descp">
+                <p id="parades">DESCRIPTION</p>
+       
+                <input type="text" name="description" placeholder="What do you need to do ?" id="inputdes">
+            </div>
+            <div >
+                <div id="categ">
+                
+                <p id="parades">CATEGORY</p>
+                <select name="category" id="category" placeholder="choose category">
+                    <option disabled="" selected="">SELECT CATEGORY</option>
+                    <option value="personal">PERSONAL</option>
+                    <option value="Home">HOME</option>
+                    <option value="office">OFFICE</option>
+                    <option value="School">SCHOOL</option>
+                    <option value="park">PARK</option>
+                </select>
+            </div>
+                <div id="date">
+                    <p id="parades">DUE DATE</p>
+                    <input type="date" name="date" id="dates">
+    
+                </div>
+                
+            </div>
+           
+            <br>
+           
+          
+           
+            <button type="submit" class="button" id="button1">ADD TASK</button>
+        </form>
+
+            
+       
+        
+        
+        
+        <div id="todolist">
+            <form action='/delete-task' method="GET">
+                <button type="submit" class="button" id="button2">DELETE TASK</button>
+        
+                <% for( let i of todo_list){%>
+
+             
+                    
+                    <div id="written">
+                        <pre><input type="checkbox" name="<%= i._id %>">  <span id="dis"><%=i.description%> </span><span class="taskprint"><%=i.category%></span>
+                        <span id="date1"><%=i.date%></span> </pre>
+                        
+                      
+                        
+                    
+                    </div>
+                    
+            
+        
+               
+
+                <%}%>
+                
+            </form>
+        </div>
+      
+        <script type="text/javascript" src="/js/home.js"></script>
+    </div>
+    </body>
+</html>

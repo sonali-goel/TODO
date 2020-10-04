@@ -1,0 +1,142 @@
+body{
+    background-color: grey;
+   
+}
+#body-div{
+    min-height:520px;
+    height: auto;
+    width:800px;
+    background-color: white;
+    margin-left: 250px;
+}
+#todoapp{
+    text-align: center;
+    font-size:50px;
+
+
+}
+#descp{
+    width: 100%;
+    height:60px;
+    border:1px solid rgba(0, 0, 0, 0.288);
+    background-color: white;
+
+}
+#inputdes{
+    margin-top:-15px;
+    width:100%;
+    height:40px;
+    border:none;
+    
+
+}
+#parades{
+    margin-top:-1px;
+    font-weight: bolder;
+
+}
+#category{
+    margin-top: -15px;
+    height:30px;
+    width:390px;
+    border:none;
+}
+
+#categ{
+    width: 49%;
+    height:50px;
+    border:1px solid rgba(0, 0, 0, 0.288);
+    background-color: white;
+    display: inline-block;
+    
+}
+#date{
+    width: 50.5%;
+    height:50px;
+    border:1px solid rgba(0, 0, 0, 0.288);
+    background-color: white;
+    display: inline-block;
+    margin-left: -4px;
+}
+#dates{
+    margin-top: -15px;
+    height:30px;
+    width:400px;
+    border:none;
+
+}
+.button{
+    height:50px;
+    width:130px;
+    font-size: larger;
+    color:white;
+    border-radius: 5px;
+
+
+
+
+}
+#button1{
+    background-color: black;
+
+    border:none;
+    margin-left: 240px;
+      
+}
+#button2{
+    background-color: red;
+    display: inline-block;
+    border:none;
+    margin-left: 400px;
+    margin-top: -65px;;
+  
+}
+
+#categdiv{
+    border:1px solid black;
+    padding: 2px;
+    background-color: chartreuse;
+    width:45px;
+    height:20px;
+    margin-top: 3px;
+
+}
+#written{
+
+    width: 100%;
+    height:70px;
+    border:0.1px solid grey;
+    background-color:whitesmoke;
+   
+
+}
+.taskprint{
+    float:right;
+    height:35px;
+    width:120px;
+    background-color: purple;
+    padding-left: 30px;
+    box-sizing: border-box;
+    padding-top: 8px;
+    font-size: 20px;
+    font-weight:bolder;
+    margin-right: 30px;
+    border-radius: 10px;
+    color:white;
+
+
+}
+#date1{
+    margin-top: 50px;
+    margin-left:-140px;
+    font-size: 18px;
+    font-weight: bold;
+    color: blue;
+
+    
+}
+#dis{
+    font-size: 20px;
+    text-transform:capitalize;
+    font-weight:bolder;
+}

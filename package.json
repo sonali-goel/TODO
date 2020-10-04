@@ -1,0 +1,25 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.15"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Piyush10oo/TodoList.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Piyush10oo/TodoList/issues"
+  },
+  "homepage": "https://github.com/Piyush10oo/TodoList#readme",
+  "description": ""
+}
